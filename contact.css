@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/3.jpg);
+    background-size: cover; ;    
+}
+.nav-bar{
+    background-color: rgb(255, 179, 213);
+    display: flex;
+    justify-content: space-between ;
+    border-radius: 10px ;
+    height: 70px ;
+    margin: 3%;
+    box-shadow: 10px 10px 5px rgba(114, 93, 93, .50) ;
+}   
+.nav-options{
+    display: flex;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    border-spacing: 10px;
+    align-content: center;
+    padding: 0% 1%;
+    
+}
+.header{
+    margin-left: 15px;
+    align-content:center;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    padding: 1%;
+}
+.opt a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: rgb(249, 111, 173);
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 5px;
+    width: 78px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(114, 93, 93, .50) ;
+}
+.opt a:hover{
+    color: pink;
+    font-size: 120%;
+}
+.contact-body{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 3%
+}
+.my-form{
+    width: 90%;
+    max-width: 800px;
+    margin: 10%;
+    padding: 2%;
+    border-radius: 10px;
+}
+.my-form input,
+.my-form textarea {
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+.contact-form {
+    background-color: rgb(255, 179, 213);
+    border-radius: 10px;
+}
+.contact-header{ 
+    text-align: left; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    font-weight: bold; 
+    color: white; 
+    padding: 10% 10% 0% 10% ; 
+} 
+.social-media{
+    background-color: rgb(255, 179, 213);
+    border-radius: 10px;
+    text-align: left; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    font-weight: bold; 
+    color: white; 
+    padding: 10% 10% 0% 10% ; 
+}
+.contact-form,
+.social-media{
+    flex: 1;                    
+    background-color: rgb(255, 179, 213);
+    border-radius: 10px;
+    padding: 25px;
+}
+.social-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 18px;
+    background-color: rgb(249, 111, 173);
+    border-radius: 10px;
+    text-align: center;
+    list-style: none;
+    box-shadow: 3px 3px 5px rgba(114, 93, 93, .50) ;
+}
+
+.social-links a:hover {
+    color: pink;
+    font-size: 120%;
+}
+
+
+    
